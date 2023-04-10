@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 :root {
+    /*CORES*/
     --cor-principal: #ffffff;
     --cor-secundaria: #c0c0c0;
     --botao: #167bf7;
     --bg-color: #00030c;
+    /*FONTES*/
     --font-principal: 'Inter', sans-serif;
 }
 
