@@ -157,3 +157,45 @@ body {
     color: var(--cor-secundaria);
     font-size: 0.875em;
 }
+
+/*RESPONSIVIDADE*/
+
+@media screen and (max-width: 768px) {
+    .container{
+        display: block;
+        background-image: none;
+    }
+
+    .container__imagem {
+        width: 50vw;
+    }
+
+    .container__caixa {
+        margin: 2em 2em;
+    }
+
+    .descricao__titulo, .dispositivos__titulo {
+        font-size: 40px;
+    }
+
+    .secundario {
+        margin: 0;
+        text-align: center;
+    }
+
+    .secundario__imagem {
+        width: 50vw;
+    }
+
+    .dispositivos__lista {
+        display: block;
+    }
+
+    .rodape__lista {
+        display: block;
+    }
+
+    .rodape__logo, .lista__link {
+        margin-bottom: 0.5em;
+    }
+}
