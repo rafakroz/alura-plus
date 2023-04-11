@@ -4,8 +4,9 @@
     /*CORES*/
     --cor-principal: #ffffff;
     --cor-secundaria: #c0c0c0;
-    --botao: #167bf7;
     --bg-color: #00030c;
+    --botao: #167bf7;
+    --botao-hover: #579ff8;
     /*FONTES*/
     --font-principal: 'Inter', sans-serif;
 }
@@ -54,6 +55,11 @@ body {
     display: block;
     text-decoration: none;
     margin-bottom: 1em;
+}
+
+.container__botao:hover {
+    background-color: var(--botao-hover);
+    color: var(--bg-color);
 }
 
 .botao_secundario {
@@ -118,4 +124,36 @@ body {
 .lista__item {
     font-size: 32px;
     color: var(--cor-principal);
+}
+
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.lista__link a {
+    text-decoration: none;
+    color: var(--cor-principal);
+    margin-left: 1em;
+}
+
+.lista__link a:hover {
+    color: var(--botao);
+}
+
+.lista__link a:active {
+    color: darkred;
+}
+
+.rodape__texto {
+    margin: 1em 0em;
+    color: var(--cor-secundaria);
+    font-size: 0.875em;
 }
